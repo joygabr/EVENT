@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root{
+--branco: #ffffff;
+--roxo-escuro: #1f1848;
+--roxo: #511947;
+--roxo-claro: #831b46;
+--vermelho: #b51d45;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 75%;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 85px;
+}
+
+.titulo__nav{
+    display: flex;
+    gap: 5rem;
+}
+
+.lista__header{
+    display: flex;
+    gap: 2rem;
+}
+
+.lista__header-item{
+    list-style-type: none;
+}
+
+.lista__header-link{
+    text-decoration: none;
+    color: #201849;
+}
+
+.lista__header-link:hover{
+    color: var(--vermelho);
+}
+
+.botao{
+    padding: 12px 30px;
+    background-color: var(--vermelho);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .25s;
+}
+
+.botao:hover{
+    color: var(--vermelho);
+    background-color: white;
+}
+
+.banner{
+    background-color: var(--vermelho);
+    height: calc(100vh - 85px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.borda__banner{
+    margin: 3rem 0 0;
+    background-color: #3F3D56;
+    width: 75%;
+    height: 2px;
+}
+
+#tit__banner{
+    color: white;
+    font-size: 30px;
+    padding: 0.3rem;
+}
+
+.tit{
+    font-size: 20px;
+    padding: 4rem 0;
+}
+
+.tit__eventos{
+    text-align: center;
+}
+
+.borda__eventos{
+    margin: 0 auto 3rem auto;
+    background-color: #3F3D56;
+    width: 20%;
+    height: 2px;
+}
+
+.cartoes{
+    display: flex;
+    gap: 1.6rem;
+}
+
+.cartao{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border: solid 1px #821B47;
+    border-radius: 5px;
+    padding: 1.3rem 2rem;
+}
+
+.txt__cartao{
+    margin: 1rem 0;
+}
+
+
+
+
+
+
